@@ -15,6 +15,7 @@ import {
 } from "./Navbar.style";
 import { Button } from "../../globalStyles";
 import { useEffect } from "react";
+import "./styleNavLink.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);

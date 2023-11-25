@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Container } from "../../globalStyles";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaMagento } from "react-icons/fa";
 
 export const Nav = styled.nav`
@@ -88,7 +88,7 @@ export const NavItem = styled.li`
   }
 `;
 
-export const NavLinks = styled(Link)`
+export const NavLinks = styled(NavLink)`
   color: #fff;
   display: flex;
   align-items: center;
